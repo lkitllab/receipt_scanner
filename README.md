@@ -1,16 +1,29 @@
-# receipt_scanner
+# Veryfi Flutter Receipt Processing Demo
 
-A new Flutter project.
+This Flutter demo project is designed for mobile Android and iOS platforms, showcasing receipt processing capabilities using the [Veryfi API](https://www.veryfi.com). The Veryfi API allows for efficient extraction of data from receipts, making it a powerful tool for various applications.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Create Veryfi Account:** Before using the demo, you need to create an account on the [Veryfi platform](https://www.veryfi.com) if you don't have one already.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Obtain API Credentials:**
+   - Generate your `clientId` and `clientSecret` from the Veryfi developer portal.
+   - Provide your `userName` and `apiKey` for authentication.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Configure Project:**
+   - Open the project and locate the configuration file.
+   - Insert your Veryfi API credentials (clientId, clientSecret, userName, and apiKey) in the appropriate fields.
+
+4. **Run the Project:**
+   - Build and run the project on your preferred emulator or physical device.
+
+## Features
+
+- **Receipt Scanning:**
+  - Utilize the device camera to capture receipts in real-time.
+  - Alternatively, add receipts from the photo library for processing.
+
+- **Veryfi API Integration:**
+  - Leverage the power of the Veryfi API to extract and process data from receipts seamlessly.
