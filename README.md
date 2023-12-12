@@ -27,3 +27,6 @@ To run this project, follow these steps:
 
 - **Veryfi API Integration:**
   - Leverage the power of the Veryfi API to extract and process data from receipts seamlessly.
+ 
+![demo](images/screenshot1.png)
+![demo](images/screenshot2.png)
